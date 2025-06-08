@@ -3,13 +3,13 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 4000",
     "start:otel-verbose": "NEXT_OTEL_VERBOSE=1 next start"
   },
   "dependencies": {
-    "@vercel/otel": "latest",
     "@opentelemetry/api": "^1.4.1",
-    "next": "latest",
+    "@vercel/otel": "^1.13.0",
+    "next": "^14.2.29",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
